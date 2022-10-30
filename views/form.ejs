@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Form Page</h1>
+    <form method="POST" action = "/form">
+        <input name = "name" value="<%= qs.name %>" type="text">
+        <input name = "surname" value="<%= qs.surname %>" type="text">
+        <input name = "age" value="<%= qs.age %>" type="number">
+        <input name = "department" value="<%= qs.dept %>" type="text">
+        
+        
+        <input type="submit" class="submit">
+
+    </form>
+</body>
+</html>
