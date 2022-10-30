@@ -1,4 +1,4 @@
-# Making-Database-Demo
+# Basic Model View Controller Project
 Basically Mini Database App
 
 Install Modules 
